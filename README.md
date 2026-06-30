@@ -43,7 +43,7 @@
 | Chapter | Status |
 |---------|--------|
 | Translator's Note / 翻译说明 | ✅ Done |
-| Strumming Patterns / 扫弦节奏 | ✅ Done |
+| Strumming Patterns / 扫弦节奏 | 🔜 Pending |
 | Finger Picking / 指弹 | 🔜 Pending |
 | Finger Tapping / 点弦 | 🔜 Pending |
 | Hybrid Picking / 混合拨弦 | 🔜 Pending |
