@@ -1,16 +1,17 @@
 % =============================================================================
 %  Math Rock Essentials — Chinese Translation
+%  数学摇滚精髓 — 中文翻译版
 %  Author: Raisetsu41   |   Original: Stephen Hazel
 %  Engine: xelatex
 %  
 %  编译: xelatex Math-Rock-Essentials.tex
-%  每章内容在 chapters/ 目录下独立编辑
+%  各章节内容在 chapters/ 目录下独立编辑
 % =============================================================================
 
 \documentclass[10pt,a4paper]{book}
 \usepackage[UTF8, fontset=windows]{ctex}
 
-% --- 页面（紧凑）---
+% --- 页面 ---
 \usepackage[top=1.8cm, bottom=1.8cm, left=1.8cm, right=1.8cm]{geometry}
 \usepackage{setspace}
 \onehalfspacing
@@ -26,7 +27,7 @@
 \usepackage{array}
 \usepackage{hyperref}
 
-% --- 加州蓝配色 ---
+% --- 配色 ---
 \definecolor{california}{HTML}{003B6F}
 \definecolor{caalt}{HTML}{2774AE}
 \definecolor{casky}{HTML}{D4E6F1}
@@ -44,7 +45,7 @@
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% --- 章节标题 ---
+% --- 章节标题格式 ---
 \titleformat{\chapter}[hang]
   {\LARGE\bfseries\sffamily\color{california}}
   {\thechapter\quad}{0em}{}
@@ -59,13 +60,13 @@
 %  翻译工具命令（所有子文件共享）
 % ============================================================
 
-% --- 段落翻译 ---
+% --- 段落翻译（原文 / 译文） ---
 \newcommand{\eng}[1]{%
   \par\noindent
-  {\color{cadark}\sffamily\small\textbf{▸ ENG}\quad}#1\par\medskip}
+  {\color{cadark}\sffamily\small\textbf{\textgreater\ ENG}\quad}#1\par\medskip}
 \newcommand{\chn}[1]{%
   \par\noindent
-  {\color{cared}\sffamily\small\textbf{▸ 译}\quad}#1\par\medskip}
+  {\color{cared}\sffamily\small\textbf{\textgreater\ 译}\quad}#1\par\medskip}
 
 % --- 并排短句 ---
 \newcommand{\enandcn}[2]{%
@@ -73,20 +74,20 @@
   {\color{cadark}\small\textbf{EN}\quad#1}\hfill
   {\color{cared}\small\textbf{CN}\quad#2}\par\medskip}
 
-% --- 术语 ---
+% --- 术语标注 ---
 \newcommand{\term}[2]{{\color{caalt}#1}（\textit{#2}）}
 
 % --- 信息框 ---
 \newtcolorbox{notebox}[1][]{
   colback=casky, colframe=california, coltitle=white,
-  fonttitle=\sffamily\bfseries\small,
-  title=#1, arc=3pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
+  fonttitle=\sffamily\bfseries\small, title=#1,
+  arc=3pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
 \newtcolorbox{examplebox}[1][]{
   colback=white, colframe=caalt, coltitle=white,
-  fonttitle=\sffamily\bfseries\small,
-  title=#1, arc=3pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
+  fonttitle=\sffamily\bfseries\small, title=#1,
+  arc=3pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
 
-% --- 练习 ---
+% --- 练习环境 ---
 \newcounter{exercise}[chapter]
 \renewcommand{\theexercise}{\thechapter.\arabic{exercise}}
 \newenvironment{exercise}[1][]{%
@@ -116,21 +117,43 @@
 \tableofcontents
 \clearpage
 
-% --- 翻译说明 ---
 \input{chapters/translators-note}
 
+% =============================================================================
 \mainmatter
+% =============================================================================
 
-% --- 各章（每个 \include 开始新页）---
-\include{chapters/strumming}
-\include{chapters/fingerpicking}
-\include{chapters/tapping}
-\include{chapters/hybrid}
-\include{chapters/tunings}
-\include{chapters/fretboard}
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%  Section 1 — Math Rock Guitar Techniques
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\part[Math Rock Guitar Techniques]{\texorpdfstring{Math Rock Guitar Techniques \\[4pt] \normalsize 数学摇滚吉他技巧}{Math Rock Guitar Techniques --- 数学摇滚吉他技巧}}
 
-% --- 附录 ---
+\include{chapters/sec1-how-to-practice}   % How to Practice? / 如何练习
+\include{chapters/sec1-tapping}           % Segment 1A — Finger Tapping / 点弦
+\include{chapters/sec1-fingerpicking}     % Segment 1B — Fingerpicking / 指弹
+\include{chapters/sec1-hybrid}            % Segment 1C — Hybrid Picking / 混合拨弦
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%  Section 2 — Music Theory, Chords, and Alternate Tunings
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\part[Beginner Music Theory, Chords \& Progressions, and Alternate Tunings]{\texorpdfstring{Beginner Music Theory, Chords \& Progressions, \\[4pt] \normalsize and Alternate Tunings \\[4pt] 基础乐理、和弦进行与特殊调弦}{Beginner Music Theory, Chords \& Progressions, and Alternate Tunings --- 基础乐理、和弦进行与特殊调弦}}
+
+\include{chapters/sec2a-theory}           % Segment 2A — Basic Music Theory / 基础乐理
+\include{chapters/sec2b-chords}           % Segment 2B — Chords & Progressions / 和弦与进行
+\include{chapters/sec2c-tunings}          % Segment 2C — Alternate Tunings / 特殊调弦
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%  Bonus Content
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\part[Bonus Content]{\texorpdfstring{Bonus Content \\[4pt] \normalsize 附加内容}{Bonus Content --- 附加内容}}
+
+\include{chapters/sec3a-fretboard}        % Segment 3A — Mastering the Fretboard / 指板精通
+\include{chapters/sec3b-strumming}        % Segment 3B — Strumming Patterns / 扫弦模式
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%  Appendix
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \appendix
-\include{chapters/glossary}
+\include{chapters/glossary}               % 术语表
 
 \end{document}
