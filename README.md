@@ -59,70 +59,70 @@ This repository is its **Chinese translation**, presented bilingually alongside 
 | Segment | Chapter | Status |
 |---------|---------|--------|
 | — | How to Practice? / 如何练习 | ✅ Done |
-| **1A** | **Finger Tapping / 点弦** | 🔜 Pending |
-| | Finger Tapping (Overview) / 点弦概述 | 🔜 |
-| | Technique Pointers / 技术要点 | 🔜 |
-| | Finger Strength & Dexterity / 手指力量与灵活性 | 🔜 |
-| | Hand/Wrist Positioning / 手腕定位 | 🔜 |
-| | Two Handed Tapping / 双手点弦 | 🔜 |
-| | Test Yourself: Two Handed Tapping / 双手点弦自我测验 | 🔜 |
-| | Finger Tapping with Chords / 和弦点弦 | 🔜 |
-| | Test Yourself: Chords + Tapping / 和弦点弦自我测验 | 🔜 |
-| **1B** | **Fingerpicking / 指弹** | 🔜 Pending |
-| | Fingerpicking (Overview) / 指弹概述 | 🔜 |
-| | Developing Dexterity / 灵活性训练 | 🔜 |
-| | Fingerpicking Patterns / 指弹模式 | 🔜 |
-| | Finger Control & Plucking Chords / 手指控制与拨弦 | 🔜 |
-| | Test Yourself / 自我测验 | 🔜 |
-| **1C** | **Hybrid Picking / 混合拨弦** | 🔜 Pending |
-| | Hybrid Picking (Overview) / 混合拨弦概述 | 🔜 |
-| | Dexterity Exercises / 灵活性练习 | 🔜 |
-| | Test Yourself / 自我测验 | 🔜 |
-| | General Technique / 通用技术总结 | 🔜 |
+| **1A** | **Finger Tapping / 点弦** | ✅ |
+| | Finger Tapping (Overview) / 点弦概述 | ✅ |
+| | Technique Pointers / 技术要点 | ✅ |
+| | Finger Strength & Dexterity / 手指力量与灵活性 | ✅ |
+| | Hand/Wrist Positioning / 手腕定位 | ✅ |
+| | Two Handed Tapping / 双手点弦 | ✅ |
+| | Test Yourself: Two Handed Tapping / 双手点弦自我测验 | ✅ |
+| | Finger Tapping with Chords / 和弦点弦 | ✅ |
+| | Test Yourself: Chords + Tapping / 和弦点弦自我测验 | ✅ |
+| **1B** | **Fingerpicking / 指弹** | ✅ |
+| | Fingerpicking (Overview) / 指弹概述 | ✅ |
+| | Developing Dexterity / 灵活性训练 | ✅ |
+| | Fingerpicking Patterns / 指弹模式 | ✅ |
+| | Finger Control & Plucking Chords / 手指控制与拨弦 | ✅ |
+| | Test Yourself / 自我测验 | ✅ |
+| **1C** | **Hybrid Picking / 混合拨弦** | ✅ |
+| | Hybrid Picking (Overview) / 混合拨弦概述 | ✅ |
+| | Dexterity Exercises / 灵活性练习 | ✅ |
+| | Test Yourself / 自我测验 | ✅ |
+| | General Technique / 通用技术总结 | ✅ |
 
 ### Section 2 — Music Theory, Chords & Alternate Tunings / 乐理、和弦与特殊调弦
 
 | Segment | Chapter | Status |
 |---------|---------|--------|
-| **2A** | **Basic Music Theory / 基础乐理** | 🔜 Pending |
-| | Major and Minor / 大调与小调 | 🔜 |
-| | Key Signatures / 调号 | 🔜 |
-| | Why Learn Key Signatures? / 为何学习调号 | 🔜 |
-| | How Basic Chords Work / 基础和弦原理 | 🔜 |
-| | Task / 练习题 | 🔜 |
-| **2B** | **Chords & Progressions / 和弦与进行** | 🔜 Pending |
-| | Extended Chords / 延伸和弦 | 🔜 |
-| | Seventh Chord Voicings / 七和弦指型 | 🔜 |
-| | Ninth Chord Voicings / 九和弦指型 | 🔜 |
-| | Suspended Chords / 挂留和弦 | 🔜 |
-| | Major & Minor 6 / 6add9 Chords | 🔜 |
-| | Extended Shell Voicings / 壳和弦指型 | 🔜 |
-| | Chord Progressions & Mixing / 和弦进行与混合 | 🔜 |
-| | Functional Diatonic Progressions / 功能级数进行 | 🔜 |
-| | Progressions in Context / 实例进行 | 🔜 |
-| | Borrowed Chords / 借位和弦 | 🔜 |
-| | Tasks Answers / 练习答案 | 🔜 |
-| **2C** | **Alternate Tunings / 特殊调弦** | 🔜 Pending |
-| | Examples / 示例 | 🔜 |
-| | Why They Sound Great / 为何好听 | 🔜 |
-| | String Gauges / 琴弦规格 | 🔜 |
-| | How to Write / 如何创作 | 🔜 |
-| | FACGCE: Chords, Progressions, Arpeggios, Ideas | 🔜 |
-| | DAEAC#E: Chords, Progressions, Arpeggios, Ideas | 🔜 |
+| **2A** | **Basic Music Theory / 基础乐理** | ✅ |
+| | Major and Minor / 大调与小调 | ✅ |
+| | Key Signatures / 调号 | ✅ |
+| | Why Learn Key Signatures? / 为何学习调号 | ✅ |
+| | How Basic Chords Work / 基础和弦原理 | ✅ |
+| | Task / 练习题 | ✅ |
+| **2B** | **Chords & Progressions / 和弦与进行** | ✅ |
+| | Extended Chords / 延伸和弦 | ✅ |
+| | Seventh Chord Voicings / 七和弦指型 | ✅ |
+| | Ninth Chord Voicings / 九和弦指型 | ✅ |
+| | Suspended Chords / 挂留和弦 | ✅ |
+| | Major & Minor 6 / 6add9 Chords | ✅ |
+| | Extended Shell Voicings / 壳和弦指型 | ✅ |
+| | Chord Progressions & Mixing / 和弦进行与混合 | ✅ |
+| | Functional Diatonic Progressions / 功能级数进行 | ✅ |
+| | Progressions in Context / 实例进行 | ✅ |
+| | Borrowed Chords / 借位和弦 | ✅ |
+| | Tasks Answers / 练习答案 | ✅ |
+| **2C** | **Alternate Tunings / 特殊调弦** | ✅ |
+| | Examples / 示例 | ✅ |
+| | Why They Sound Great / 为何好听 | ✅ |
+| | String Gauges / 琴弦规格 | ✅ |
+| | How to Write / 如何创作 | ✅ |
+| | FACGCE: Chords, Progressions, Arpeggios, Ideas | ✅ |
+| | DAEAC#E: Chords, Progressions, Arpeggios, Ideas | ✅ |
 
 ### Bonus Content / 附加内容
 
 | Segment | Chapter | Status |
 |---------|---------|--------|
-| **3A** | **Mastering the Fretboard / 指板精通** | 🔜 Pending |
-| | Octave Method / 八度法 | 🔜 |
-| | Arpeggio Method / 琶音法 | 🔜 |
-| | Major 7 / Minor 7 / Dom 7 / m7b5 Arpeggios | 🔜 |
-| | Example Riffs & Licks / 示例乐句 | 🔜 |
+| **3A** | **Mastering the Fretboard / 指板精通** | ✅ |
+| | Octave Method / 八度法 | ✅ |
+| | Arpeggio Method / 琶音法 | ✅ |
+| | Major 7 / Minor 7 / Dom 7 / m7b5 Arpeggios | ✅ |
+| | Example Riffs & Licks / 示例乐句 | ✅ |
 | **3B** | **Functional Strumming Patterns / 功能性扫弦模式** | ✅ In Progress |
 | | 4/4 Time Patterns (5A–5M) | ✅ Partially |
-| | 3/4 Time Patterns (6A–6F) | 🔜 |
-| | 5/8 Time Patterns (7A–7H) | 🔜 |
+| | 3/4 Time Patterns (6A–6F) | ✅ |
+| | 5/8 Time Patterns (7A–7H) | ✅ |
 
 ---
 
