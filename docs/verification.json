@@ -1,0 +1,27 @@
+{
+  "source_sha256": "3d0e32955ef64336a70eab9c65d69a09532589e2cd974454902374a967b8ad50",
+  "output_sha256": "45708d14d116393badd1609248a7f5f8ed2da14a9ab10fc0421a13540e32583b",
+  "pages": 93,
+  "image_instances_preserved": 454,
+  "links_preserved": 119,
+  "vector_paths_preserved": 2456,
+  "inline_link_underlines_relocated": 3,
+  "cover_unchanged_outside_title_areas": true,
+  "translated_blocks": 600,
+  "typeset_lines_or_cells": 1206,
+  "chinese_fonts": [
+    "Microsoft YaHei Bold",
+    "Microsoft YaHei Regular"
+  ],
+  "font_sizes_pt": [
+    5.04,
+    8.04,
+    9.0,
+    9.96,
+    11.04,
+    12.0,
+    14.04,
+    15.96
+  ],
+  "errors": []
+}
